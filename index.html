@@ -10,13 +10,22 @@
   margin-right: auto;
   width: 50%;
 }
-<h1><label for="Aircraft">Choose an aircraft:</label>
-<select name="aircraft" id="aircraft">
-  <option value="airbus a300">Airbus A300</option>
-  <option value="airbus a310">Airbus A310</option>
-   <option value="airbus a220">Airbus A220</option>
-  <option value="airbus a320fam">Airbus A320 Family</option>
-  <option value="airbus a320neofam">Airbus A320neo Family</option>
-  </select></h1>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Aircraft
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark">
+    <li><a class="dropdown-item active" href="#">Airbus A300</a></li>
+    <li><a class="dropdown-item" href="#">Airbus A310</a></li>
+    <li><a class="dropdown-item" href="#">Airbus A220</a></li>
+    <li><a class="dropdown-item" href="#">Airbus A320 Family</a></li>
+    <li><a class="dropdown-item" href="#">Airbus A320neo Family</a></li>
+    <li><a class="dropdown-item" href="#">Airbus A330</a></li>
+    <li><a class="dropdown-item" href="#">Airbus A340</a></li>
+    <li><a class="dropdown-item" href="#">Airbus A350</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+</div>
 </body>
 </html>
