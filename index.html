@@ -4,14 +4,19 @@
 </head>
 <body>
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Logo_Airbus_2014.svg" class="center">
-<label for="Aircraft">Choose an aircraft:</label>
-
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+<h1><label for="Aircraft">Choose an aircraft:</label>
 <select name="aircraft" id="aircraft">
   <option value="airbus a300">Airbus A300</option>
   <option value="airbus a310">Airbus A310</option>
    <option value="airbus a220">Airbus A220</option>
   <option value="airbus a320fam">Airbus A320 Family</option>
   <option value="airbus a320neofam">Airbus A320neo Family</option>
-</select>
+  </select></h1>
 </body>
 </html>
